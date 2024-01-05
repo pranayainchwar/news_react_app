@@ -11,3 +11,61 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* CSS for Login Form  */
+
+.container-LoginPage100 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container-LoginPage100 div {
+  text-align: center;
+}
+
+.login-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.container-LoginPage100 form {
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.container-LoginPage100 form div {
+  margin-bottom: 15px;
+}
+
+.container-LoginPage100 form span {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.container-LoginPage100 form input[type="text"],
+.container-LoginPage100 form input[type="email"],
+.container-LoginPage100 form input[type="password"],
+.container-LoginPage100 form input[type="tel"] {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.container-LoginPage100 form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.container-LoginPage100 form button:hover {
+  background-color: #0056b3;
+}
